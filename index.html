@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="images/chapeau-de-paille.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>One-Piece</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            right: 0;
+            left: 0;
+            background-color: dimgray;
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: thin;
+            font-style: normal;
+            font-variation-settings:
+        }
+
+        header {
+            background-color: aliceblue;
+            height: 80px;
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo {
+                height: 100px;
+                width: 100px;
+                background: url(images/One-Piece-Logo-1416.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                left: 0;
+            }
+
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 60%;
+                height: 90%;
+
+                a {
+                    text-decoration: none;
+                    align-items: center;
+                    justify-content: space-around;
+                    font-family: "Mali", cursive;
+                    font-weight: bold;
+                    font-style: normal;
+                    font-size: 24px;
+
+                }
+            }
+
+        }
+
+        .welcome {
+            display: flex;
+            height: 500px;
+            width: 100vw;
+            justify-content: space-between;
+            align-items: center;
+            background-image: url(images/welcome.jpg);
+            padding: 10px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .asset {
+                width: 40%;
+                height: 300px;
+                border-radius: 24px;
+                background: url(images/first\ card.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+
+
+
+            }
+        }
+
+        .tete {
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            background: url(images/tête.png);
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Mali", cursive;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 54px;
+
+
+        }
+
+        .container {
+            height: 800px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            article {
+                padding: 30px auto;
+                margin: 30px;
+                border-radius: 24px;
+                border: 2px solid black;
+
+
+                #luffy {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    .affiche {
+                        position: absolute;
+                        background: url(images/luffy-wanted.jpg);
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+
+                    }
+                }
+            }
+
+        }
+
+        footer {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100vw;
+            height: 80px;
+            background-color: #303030;
+            color: white;
+
+
+            section {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-around;
+                width: 30%;
+                height: 80px;
+
+                a {
+                    text-decoration: none;
+                    align-items: center;
+                    justify-content: space-around;
+                    color: white;
+                    text-decoration: none;
+                }
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#characters">Characters</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <div class="tete"></div>
+
+    <div class="welcome">
+        <div class="asset"></div>
+    </div>
+
+
+
+    <hr>
+
+    <h1 id="characters">Meet Luffy's friends</h1>
+
+
+    <div class="container">
+        <article id="luffy">
+            <div class="affiche"></div>
+            <p></p>
+        </article>
+
+        <article id="zorro">
+            <div class="affiche"></div>
+            <p></p>
+        </article>
+
+        <article id="sanji">
+            <div class="affiche"></div>
+            <p></p>
+        </article>
+
+        <article id="nami">
+            <div class="affiche"></div>
+            <p></p>
+        </article>
+
+        <article id="chopper">
+            <div class="affiche"></div>
+            <p></p>
+        </article>
+
+        <article id="usop">
+            <div class="affiche"></div>
+            <p></p>
+        </article>
+
+    </div>
+
+
+    <hr>
+
+    <footer id="contact">
+        <section>
+            <h3>One Piece</h3>
+            <a href="index.html">Home</a>
+            <a href="#characters">Characters</a>
+            <a href="#contact">Contact</a>
+
+        </section>
+
+        <section>
+            <h3>Contact</h3>
+            <a href="https://discord.com/"><i class="fa-brands fa-discord"></i> Discord</a>
+            <a href="mailto:biosandaabdoulmanane@gmail.com"><i class="fa-regular fa-envelope"></i> Mail</a>
+            <a href="https://github.com/abdoul-sanda"><i class="fa-brands fa-github"></i> Github</a>
+
+
+
+
+        </section>
+
+
+    </footer>
+
+</body>
+
+</html>
