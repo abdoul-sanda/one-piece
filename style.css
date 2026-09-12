@@ -1,0 +1,243 @@
+* {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            right: 0;
+            left: 0;
+            background-color: dimgray;
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: thin;
+            font-style: normal;
+            font-variation-settings:
+        }
+
+        header {
+            background-color: aliceblue;
+            height: 80px;
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo {
+                height: 100px;
+                width: 100px;
+                background: url(images/One-Piece-Logo-1416.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                left: 0;
+            }
+
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 60%;
+                height: 90%;
+
+                a {
+                    text-decoration: none;
+                    align-items: center;
+                    justify-content: space-around;
+                    font-family: "Mali", cursive;
+                    font-weight: bold;
+                    font-style: normal;
+                    font-size: 24px;
+
+                }
+            }
+
+        }
+
+        .welcome {
+            display: flex;
+            height: 500px;
+            width: 100vw;
+            justify-content: space-between;
+            align-items: center;
+            background-image: url(images/welcome.jpg);
+            padding: 10px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .asset {
+                width: 40%;
+                height: 300px;
+                border-radius: 24px;
+                background: url(images/first\ card.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+
+
+
+            }
+        }
+
+        .tete {
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            background: url(images/tête.png);
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Mali", cursive;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 54px;
+
+
+        }
+
+        .container {
+            height: 800px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            article {
+                padding: 30px auto;
+                margin: 40px;
+                border-radius: 24px;
+                border: 2px solid black;
+            }
+
+            #luffy {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: red;
+
+                .affiche {
+                    position: absolute;
+                    background: url(images/luffy-wanted.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                }
+            }
+
+            #zorro {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(193, 126, 227);
+
+                .affiche {
+                    position: absolute;
+                    background: url(images/luffy-wanted.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                }
+            }
+
+            #sanji {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(158, 231, 122);
+
+                .affiche {
+                    position: absolute;
+                    background: url(images/luffy-wanted.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                }
+            }
+            #nami {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(150, 163, 40);
+
+                .affiche {
+                    position: absolute;
+                    background: url(images/luffy-wanted.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                }
+            }
+            #chopper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(0, 255, 115);
+
+                .affiche {
+                    position: absolute;
+                    background: url(images/luffy-wanted.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                }
+            }
+            #usop {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(15, 24, 15);
+
+                .affiche {
+                    position: absolute;
+                    background: url(images/luffy-wanted.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                }
+            }
+
+        }
+
+        footer {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100vw;
+            height: 80px;
+            background-color: #303030;
+            color: white;
+
+
+            section {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-around;
+                width: 30%;
+                height: 80px;
+
+                a {
+                    text-decoration: none;
+                    align-items: center;
+                    justify-content: space-around;
+                    color: white;
+                    text-decoration: none;
+                }
+
+            }
+        }
