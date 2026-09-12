@@ -7,7 +7,7 @@
         body {
             right: 0;
             left: 0;
-            background-color: dimgray;
+            background-color: #464444;
             font-family: "Roboto", sans-serif;
             font-optical-sizing: auto;
             font-weight: thin;
@@ -25,7 +25,7 @@
 
             .logo {
                 height: 100px;
-                width: 100px;
+                width: 200px;
                 background: url(images/One-Piece-Logo-1416.png);
                 background-position: center;
                 background-size: cover;
@@ -92,7 +92,7 @@
             align-items: center;
             justify-content: center;
             font-family: "Mali", cursive;
-            font-weight: bold;
+            font-weight: normal;
             font-style: normal;
             font-size: 54px;
 
@@ -108,7 +108,7 @@
                 padding: 30px auto;
                 margin: 40px;
                 border-radius: 24px;
-                border: 2px solid black;
+                box-shadow: 8px black;
             }
 
             #luffy {
@@ -116,7 +116,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                background-color: red;
+                background-color: rgb(245, 143, 143);
 
                 .affiche {
                     position: absolute;
@@ -216,20 +216,20 @@
             padding: 10px;
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: flex-start;
             width: 100vw;
-            height: 80px;
+            height: 190px;
             background-color: #303030;
             color: white;
 
 
             section {
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 align-items: flex-start;
                 justify-content: space-around;
                 width: 30%;
-                height: 80px;
+                height: 140px;
 
                 a {
                     text-decoration: none;
